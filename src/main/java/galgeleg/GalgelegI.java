@@ -27,4 +27,6 @@ public interface GalgelegI extends java.rmi.Remote {
     void setLoggedIn(boolean loggedIn) throws java.rmi.RemoteException;
 
     void hentOrdFraDr() throws Exception;
+
+    String getOrdet();
 }

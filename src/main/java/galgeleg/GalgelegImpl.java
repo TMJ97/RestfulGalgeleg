@@ -2,6 +2,10 @@ package galgeleg;
 
 import brugerautorisation.transport.rmi.Brugeradmin;
 
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.core.Response;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -16,6 +20,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Random;
 
+@Path("/galgeleg")
 public class GalgelegImpl extends UnicastRemoteObject implements GalgelegI {
     /**
      * AHT afprøvning er muligeOrd synlig på pakkeniveau
@@ -32,15 +37,14 @@ public class GalgelegImpl extends UnicastRemoteObject implements GalgelegI {
 
     public GalgelegImpl() throws RemoteException {
         muligeOrd.add("bil");
-        muligeOrd.add("computer");
-        muligeOrd.add("programmering");
-        muligeOrd.add("motorvej");
-        muligeOrd.add("busrute");
-        muligeOrd.add("gangsti");
-        muligeOrd.add("skovsnegl");
-        muligeOrd.add("solsort");
-        muligeOrd.add("nitten");
+
         nulstil();
+    }
+
+    @GET
+    @Path("/getWord")
+    public Response restGetOrdet() {
+        return Response.status(200).entity("{ word: " + ordet + ";}").build();
     }
 
     public void login(String brugernavn, String adgangskode) throws RemoteException, NotBoundException, MalformedURLException {
@@ -59,6 +63,7 @@ public class GalgelegImpl extends UnicastRemoteObject implements GalgelegI {
     public String getSynligtOrd() {
         return synligtOrd;
     }
+
 
     public String getOrdet() {
         return ordet;

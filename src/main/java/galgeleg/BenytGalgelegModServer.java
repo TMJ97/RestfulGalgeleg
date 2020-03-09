@@ -30,7 +30,6 @@ public class BenytGalgelegModServer {
 
 
         spil.nulstil();
-        spil.hentOrdFraDr();
         spil.logStatus();
         System.out.println("Spillet er startet.");
         while (!spil.erSpilletSlut()) {

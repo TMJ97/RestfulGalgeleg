@@ -28,7 +28,6 @@ public class GalgelegKlient {
         System.out.println("Nice, du er logged in");
 
         spil.nulstil();
-        spil.hentOrdFraDr();
         spil.logStatus();
         System.out.println("Spillet er startet.");
         while (!spil.erSpilletSlut()) {
