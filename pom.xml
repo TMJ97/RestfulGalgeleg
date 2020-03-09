@@ -26,6 +26,11 @@
             <artifactId>jersey-client</artifactId>
             <version>1.19.4</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.9</version>
+        </dependency>
     </dependencies>
     <properties>
         <maven.compiler.source>1.12</maven.compiler.source>

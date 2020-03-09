@@ -1,6 +1,7 @@
 package galgeleg;
 
 import brugerautorisation.transport.rmi.Brugeradmin;
+import org.apache.commons.lang3.StringUtils;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -15,10 +16,7 @@ import java.rmi.Naming;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Random;
+import java.util.*;
 
 @Path("/galgeleg")
 public class GalgelegImpl extends UnicastRemoteObject implements GalgelegI {
@@ -45,6 +43,26 @@ public class GalgelegImpl extends UnicastRemoteObject implements GalgelegI {
     @Path("/getWord")
     public Response restGetOrdet() {
         return Response.status(200).entity("{ word: " + ordet + ";}").build();
+    }
+
+    @GET
+    @Path("/{ordet}/{bogstav}")
+    public Response restGæt(@PathParam("ordet") String ordet, @PathParam("bogstav") String bogstav) {
+        boolean correct = ordet.contains(bogstav);
+        int count = correct ? StringUtils.countMatches(ordet, bogstav) : 0;
+        return Response.status(200).entity("{correct: " + correct + ", count: " + count + ";}").build();
+    }
+
+    @GET
+    @Path("/login/?username={username}&password={password}")
+    public Response restLogin(@PathParam("username") String username, @PathParam("password") String password) throws RemoteException, NotBoundException, MalformedURLException {
+        Brugeradmin ba = (Brugeradmin) Naming.lookup("rmi://javabog.dk/brugeradmin");
+        try {
+            ba.hentBruger(username, password);
+            setLoggedIn(true);
+        } catch (Exception e) {
+        }
+        return Response.status(200).entity("{ logged in: " + isLoggedIn + ";}").build();
     }
 
     public void login(String brugernavn, String adgangskode) throws RemoteException, NotBoundException, MalformedURLException {

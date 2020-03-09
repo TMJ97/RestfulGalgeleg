@@ -1,5 +1,6 @@
 package galgeleg;
 
+import javax.ws.rs.core.Response;
 import java.net.MalformedURLException;
 import java.rmi.NotBoundException;
 
@@ -29,4 +30,10 @@ public interface GalgelegI extends java.rmi.Remote {
     void hentOrdFraDr() throws Exception;
 
     String getOrdet();
+
+    Response restGetOrdet();
+
+    Response restGæt(String ordet, String bogstav);
+
+    Response restLogin(String username, String password) throws java.rmi.RemoteException, NotBoundException, MalformedURLException;
 }

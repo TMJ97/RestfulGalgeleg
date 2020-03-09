@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffd06782-1bde-415f-8a96-2daeefaf587a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/RestfulGalgeleg_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/RestfulGalgeleg_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/BenytGalgelegModServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/BenytGalgelegModServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestfulGalgeleg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RestfulGalgeleg.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegKlient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegKlient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/galgeleg/GalgelegKlient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/galgeleg/GalgelegKlient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/galgeleg/GalgelegServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/galgeleg/GalgelegServer.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583755722001</updated>
-      <workItem from="1583755724011" duration="5501000" />
+      <workItem from="1583755724011" duration="7643000" />
     </task>
     <servers />
   </component>
