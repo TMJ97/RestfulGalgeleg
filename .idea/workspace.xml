@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="RestfulGalgeleg:jar" />
+      <artifact name="RestfulGalgeleg:war" />
+      <artifact name="RestfulGalgeleg:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ffd06782-1bde-415f-8a96-2daeefaf587a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/RestfulGalgeleg_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/RestfulGalgeleg_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/RestfulGalgeleg_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestfulGalgeleg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RestfulGalgeleg.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +53,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -114,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583755722001</updated>
-      <workItem from="1583755724011" duration="7643000" />
+      <workItem from="1583755724011" duration="8872000" />
     </task>
     <servers />
   </component>

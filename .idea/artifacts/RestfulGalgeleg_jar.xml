@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RestfulGalgeleg:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RestfulGalgeleg_jar</output-path>
+    <root id="archive" name="RestfulGalgeleg.jar">
+      <element id="module-output" name="RestfulGalgeleg" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.19.4/jersey-core-1.19.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/sun/jersey/jersey-server/1.19.4/jersey-server-1.19.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/sun/jersey/jersey-client/1.19.4/jersey-client-1.19.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/sun/jersey/jersey-servlet/1.19.4/jersey-servlet-1.19.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
