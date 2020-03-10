@@ -9,6 +9,7 @@
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/sun/jersey/jersey-server/1.19.4/jersey-server-1.19.4.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/sun/jersey/jersey-client/1.19.4/jersey-client-1.19.4.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/sun/jersey/jersey-servlet/1.19.4/jersey-servlet-1.19.4.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: io.javalin:javalin:2.8.0" />
     </root>
   </artifact>
 </component>
