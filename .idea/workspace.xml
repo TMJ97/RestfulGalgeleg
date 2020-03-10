@@ -9,53 +9,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffd06782-1bde-415f-8a96-2daeefaf587a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_javalin_javalin_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_9_v20180320.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_2_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_2_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_javalin_javalin_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_2_71.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_javalin_javalin_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_9_v20180320.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_15_v20190215.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_9_v20180320.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_15_v20190215.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_9_v20180320.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_15_v20190215.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_9_v20180320.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_15_v20190215.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_9_v20180320.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_9_v20180320.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_15_v20190215.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_9_v20180320.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_15_v20190215.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_9_v20180320.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_9_v20180320.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_15_v20190215.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_9_v20180320.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_15_v20190215.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_9_v20180320.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_15_v20190215.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_9_v20180320.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_15_v20190215.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_9_v20180320.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_15_v20190215.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_9_v20180320.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_15_v20190215.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_2_41.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_2_71.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_41.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_71.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_2_41.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_2_71.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestfulGalgeleg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RestfulGalgeleg.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/RestfulGalgeleg_jar/RestfulGalgeleg.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/RestfulGalgeleg_jar/RestfulGalgeleg.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/BenytGalgelegModServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/BenytGalgelegModServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/galgeleg/GalgelegI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegKlient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegKlient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegRest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/galgeleg/BenytGalgelegModServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/galgeleg/GalgelegImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/galgeleg/GalgelegKlient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/galgeleg/GalgelegServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/galgeleg/BenytGalgelegModServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/galgeleg/GalgelegI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/galgeleg/GalgelegI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/galgeleg/GalgelegImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/galgeleg/GalgelegKlient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/galgeleg/GalgelegServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/galgeleg/GalgelegI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/galgeleg/GalgelegI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/brugerautorisation/transport/rmi/Brugeradmin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/galgeleg/BenytGalgelegModServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegKlient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegRest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegRest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegRest$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegRest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +68,7 @@
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
         <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
@@ -96,11 +89,11 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -209,7 +202,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583755722001</updated>
       <workItem from="1583755724011" duration="10038000" />
-      <workItem from="1583832980885" duration="9883000" />
+      <workItem from="1583832980885" duration="12930000" />
     </task>
     <servers />
   </component>
@@ -234,7 +227,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/galgeleg/GalgelegRest.java</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

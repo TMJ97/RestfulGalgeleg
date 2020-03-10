@@ -11,8 +11,8 @@ public class GalgelegServer {
         Javalin app = Javalin.create()
                 .port(80)
                 .start();
-        app.get("/getWord", GalgelegRest.restGetOrdet);
-        app.get("/postGuess", GalgelegRest.restGæt);
+        app.get("/getword", GalgelegRest.restGetOrdet);
+        app.get("/postguess", GalgelegRest.restGæt);
         app.get("/login", GalgelegRest.restLogin);
         GalgelegImpl spil = new GalgelegImpl();
         spil.hentOrdFraDr();
