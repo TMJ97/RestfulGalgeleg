@@ -11,7 +11,7 @@ public class BenytGalgelegModServer {
         String adgangskode;
 
         /**
-        TODO-Note: This works with the Server running on dist.saluton.dk
+        TODO-Note: This works with the Server running on Amazon Server
         */
         GalgelegI spil = (GalgelegI) Naming.lookup("rmi://ec2-user@ec2-3-21-41-28.us-east-2.compute.amazonaws.com:9927/galgelegtjeneste");
         spil.setLoggedIn(false); //Not perfect solution but it was a quick one!
