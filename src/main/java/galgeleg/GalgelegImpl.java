@@ -41,13 +41,13 @@ public class GalgelegImpl extends UnicastRemoteObject implements GalgelegI {
 
     @GET
     @Path("/getWord")
-    public Response restGetOrdet() {
+    public Response restGetOrdet() throws RemoteException {
         return Response.status(200).entity("{ word: " + ordet + ";}").build();
     }
 
     @GET
     @Path("/{ordet}/{bogstav}")
-    public Response restGæt(@PathParam("ordet") String ordet, @PathParam("bogstav") String bogstav) {
+    public Response restGæt(@PathParam("ordet") String ordet, @PathParam("bogstav") String bogstav) throws RemoteException {
         boolean correct = ordet.contains(bogstav);
         int count = correct ? StringUtils.countMatches(ordet, bogstav) : 0;
         return Response.status(200).entity("{correct: " + correct + ", count: " + count + ";}").build();
@@ -56,12 +56,7 @@ public class GalgelegImpl extends UnicastRemoteObject implements GalgelegI {
     @GET
     @Path("/login/?username={username}&password={password}")
     public Response restLogin(@PathParam("username") String username, @PathParam("password") String password) throws RemoteException, NotBoundException, MalformedURLException {
-        Brugeradmin ba = (Brugeradmin) Naming.lookup("rmi://javabog.dk/brugeradmin");
-        try {
-            ba.hentBruger(username, password);
-            setLoggedIn(true);
-        } catch (Exception e) {
-        }
+        login(username, password);
         return Response.status(200).entity("{ logged in: " + isLoggedIn + ";}").build();
     }
 

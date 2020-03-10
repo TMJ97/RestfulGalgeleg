@@ -3,6 +3,7 @@ package galgeleg;
 import javax.ws.rs.core.Response;
 import java.net.MalformedURLException;
 import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
 
 public interface GalgelegI extends java.rmi.Remote {
     void nulstil() throws java.rmi.RemoteException;
@@ -29,11 +30,11 @@ public interface GalgelegI extends java.rmi.Remote {
 
     void hentOrdFraDr() throws Exception;
 
-    String getOrdet();
+    String getOrdet() throws RemoteException;
 
-    Response restGetOrdet();
+    Response restGetOrdet() throws RemoteException;
 
-    Response restGæt(String ordet, String bogstav);
+    Response restGæt(String ordet, String bogstav) throws RemoteException;
 
-    Response restLogin(String username, String password) throws java.rmi.RemoteException, NotBoundException, MalformedURLException;
+    Response restLogin(String username, String password) throws RemoteException, NotBoundException, MalformedURLException;
 }
