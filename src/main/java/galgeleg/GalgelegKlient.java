@@ -1,4 +1,4 @@
-package galgeleg;
+package main.java.galgeleg;
 
 import java.rmi.Naming;
 import java.util.Scanner;
@@ -13,7 +13,7 @@ public class GalgelegKlient {
         /*
         TODO-Note: This works with the Server running locally [and with Server "setProperty" outcommented!]
         */
-        GalgelegI spil = (GalgelegI) Naming.lookup("rmi://localhost:9927/galgelegtjeneste");
+        galgeleg.GalgelegI spil = (galgeleg.GalgelegI) Naming.lookup("rmi://localhost:9927/galgelegtjeneste");
         spil.setLoggedIn(false); //Not perfect solution but it was a quick one!
 
         while (!spil.isLoggedIn()) {

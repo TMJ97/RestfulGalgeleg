@@ -1,12 +1,6 @@
-package galgeleg;
+package main.java.galgeleg;
 
 import brugerautorisation.transport.rmi.Brugeradmin;
-import org.apache.commons.lang3.StringUtils;
-
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.core.Response;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -18,8 +12,7 @@ import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.*;
 
-@Path("/galgeleg")
-public class GalgelegImpl extends UnicastRemoteObject implements GalgelegI {
+public class GalgelegImpl extends UnicastRemoteObject implements galgeleg.GalgelegI {
     /**
      * AHT afprøvning er muligeOrd synlig på pakkeniveau
      */
@@ -37,27 +30,6 @@ public class GalgelegImpl extends UnicastRemoteObject implements GalgelegI {
         muligeOrd.add("bil");
 
         nulstil();
-    }
-
-    @GET
-    @Path("/getWord")
-    public Response restGetOrdet() throws RemoteException {
-        return Response.status(200).entity("{ word: " + ordet + ";}").build();
-    }
-
-    @GET
-    @Path("/{ordet}/{bogstav}")
-    public Response restGæt(@PathParam("ordet") String ordet, @PathParam("bogstav") String bogstav) throws RemoteException {
-        boolean correct = ordet.contains(bogstav);
-        int count = correct ? StringUtils.countMatches(ordet, bogstav) : 0;
-        return Response.status(200).entity("{correct: " + correct + ", count: " + count + ";}").build();
-    }
-
-    @GET
-    @Path("/login/?username={username}&password={password}")
-    public Response restLogin(@PathParam("username") String username, @PathParam("password") String password) throws RemoteException, NotBoundException, MalformedURLException {
-        login(username, password);
-        return Response.status(200).entity("{ logged in: " + isLoggedIn + ";}").build();
     }
 
     public void login(String brugernavn, String adgangskode) throws RemoteException, NotBoundException, MalformedURLException {
