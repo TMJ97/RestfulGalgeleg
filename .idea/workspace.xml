@@ -9,7 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffd06782-1bde-415f-8a96-2daeefaf587a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/RestfulGalgeleg_jar/RestfulGalgeleg.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/RestfulGalgeleg_jar/RestfulGalgeleg.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/galgeleg/GalgelegServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/galgeleg/GalgelegServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/galgeleg/GalgelegServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/galgeleg/GalgelegServer.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +77,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GalgelegKlient">
+  <component name="RunManager" selected="Application.BenytGalgelegModServer">
+    <configuration name="BenytGalgelegModServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="galgeleg.BenytGalgelegModServer" />
+      <module name="RestfulGalgeleg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="galgeleg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GalgelegKlient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="galgeleg.GalgelegKlient" />
       <module name="RestfulGalgeleg" />
@@ -101,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BenytGalgelegModServer" />
         <item itemvalue="Application.GalgelegKlient" />
         <item itemvalue="Application.GalgelegServer" />
       </list>
@@ -117,7 +136,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583755722001</updated>
       <workItem from="1583755724011" duration="10038000" />
-      <workItem from="1583832980885" duration="3507000" />
+      <workItem from="1583832980885" duration="3767000" />
     </task>
     <servers />
   </component>
