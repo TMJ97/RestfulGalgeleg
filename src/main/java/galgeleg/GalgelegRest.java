@@ -12,7 +12,7 @@ public class GalgelegRest {
         public void handle(@NotNull Context context) throws Exception {
             final GalgelegImpl spil = new GalgelegImpl();
             spil.hentOrdFraDr();
-            context.json(spil.getOrdet());
+            context.header("Access-Control-Allow-Origin", "*").json(spil.getOrdet());
         }
     };
 
@@ -24,7 +24,7 @@ public class GalgelegRest {
             String bogstav = context.queryParam("bogstav");
             boolean correct = ordet.contains(bogstav);
             int count = correct ? StringUtils.countMatches(ordet, bogstav) : 0;
-            context.json("{correct: " + correct + ", count: " + count + ";}");
+            context.header("Access-Control-Allow-Origin", "*").json("{correct: " + correct + ", count: " + count + ";}");
         }
     };
 
@@ -36,7 +36,7 @@ public class GalgelegRest {
             String username = context.queryParam("username");
             String password = context.queryParam("password");
             spil.login(username, password);
-            context.json(spil.isLoggedIn());
+            context.header("Access-Control-Allow-Origin", "*").json(spil.isLoggedIn());
         }
     };
 }
