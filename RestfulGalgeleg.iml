@@ -28,7 +28,7 @@
     <orderEntry type="library" name="Maven: com.sun.jersey:jersey-servlet:1.19.4" level="project" />
     <orderEntry type="library" name="Maven: com.sun.jersey:jersey-client:1.19.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.9" level="project" />
-    <orderEntry type="library" exported="" name="Maven: io.javalin:javalin:2.8.0" level="project" />
+    <orderEntry type="library" name="Maven: io.javalin:javalin:2.8.0" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.71" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.2.71" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71" level="project" />
