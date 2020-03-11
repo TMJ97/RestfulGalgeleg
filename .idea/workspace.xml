@@ -3,15 +3,39 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="RestfulGalgeleg:jar" />
+      <artifact name="RestfulGalgeleg:war" />
+      <artifact name="RestfulGalgeleg:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffd06782-1bde-415f-8a96-2daeefaf587a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestfulGalgeleg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RestfulGalgeleg.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/RestfulGalgeleg_jar/RestfulGalgeleg.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/RestfulGalgeleg_jar/RestfulGalgeleg.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/META-INF/RestfulGalgeleg.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/brugerautorisation/data/Bruger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/brugerautorisation/transport/rmi/Brugeradmin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/galgeleg/GalgelegI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/main/java/galgeleg/BenytGalgelegModServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/main/java/galgeleg/GalgelegImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/main/java/galgeleg/GalgelegKlient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/main/java/galgeleg/GalgelegRest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/main/java/galgeleg/GalgelegRest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/main/java/galgeleg/GalgelegRest$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/main/java/galgeleg/GalgelegRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/classes/main/java/galgeleg/GalgelegServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/lib/jersey-client-1.19.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/lib/jersey-core-1.19.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/lib/jersey-server-1.19.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/lib/jersey-servlet-1.19.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/lib/jsr311-api-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/RestfulGalgeleg.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegRest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegRest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegRest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegRest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegRest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegRest$3.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +191,10 @@
       <updated>1583755722001</updated>
       <workItem from="1583755724011" duration="10038000" />
       <workItem from="1583832980885" duration="13838000" />
-      <workItem from="1583913717741" duration="556000" />
+      <workItem from="1583913717741" duration="914000" />
+      <workItem from="1583916408700" duration="620000" />
+      <workItem from="1583917228337" duration="263000" />
+      <workItem from="1583918974199" duration="814000" />
     </task>
     <servers />
   </component>
