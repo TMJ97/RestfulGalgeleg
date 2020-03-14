@@ -10,6 +10,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ffd06782-1bde-415f-8a96-2daeefaf587a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,6 +174,7 @@
       <workItem from="1583917228337" duration="263000" />
       <workItem from="1583918974199" duration="932000" />
       <workItem from="1583923777020" duration="83000" />
+      <workItem from="1584201996018" duration="819000" />
     </task>
     <servers />
   </component>
