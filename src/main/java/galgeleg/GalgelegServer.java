@@ -9,7 +9,7 @@ public class GalgelegServer {
         System.setProperty("java.rmi.server.hostname", "ec2-3-21-41-28.us-east-2.compute.amazonaws.com");
         java.rmi.registry.LocateRegistry.createRegistry(9927);
         Javalin app = Javalin.create()
-                .port(80)
+                .port(8080)
                 .start();
         app.get("/getword", GalgelegRest.restGetOrdet);
         app.get("/postguess", GalgelegRest.restGæt);
