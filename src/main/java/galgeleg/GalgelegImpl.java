@@ -12,7 +12,7 @@ import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.*;
 
-public class GalgelegImpl extends UnicastRemoteObject implements galgeleg.GalgelegI {
+public class GalgelegImpl extends UnicastRemoteObject implements GalgelegI {
     /**
      * AHT afprøvning er muligeOrd synlig på pakkeniveau
      */

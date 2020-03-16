@@ -13,7 +13,7 @@ public class BenytGalgelegModServer {
         /**
         TODO-Note: This works with the Server running on Amazon Server
         */
-        galgeleg.GalgelegI spil = (galgeleg.GalgelegI) Naming.lookup("rmi://ec2-3-21-41-28.us-east-2.compute.amazonaws.com:9927/galgelegtjeneste");
+        GalgelegI spil = (GalgelegI) Naming.lookup("rmi://ec2-3-21-41-28.us-east-2.compute.amazonaws.com:9927/galgelegtjeneste");
         spil.setLoggedIn(false); //Not perfect solution but it was a quick one!
 
         while (!spil.isLoggedIn()) {

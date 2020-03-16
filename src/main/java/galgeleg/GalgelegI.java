@@ -1,4 +1,4 @@
-package galgeleg;
+package main.java.galgeleg;
 
 import java.net.MalformedURLException;
 import java.rmi.NotBoundException;
