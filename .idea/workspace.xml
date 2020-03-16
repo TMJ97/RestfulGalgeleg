@@ -3,25 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a5d70f79-f364-421f-afbf-2df5d36bb4de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestfulGalgeleg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RestfulGalgeleg.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/RestfulGalgeleg_jar/RestfulGalgeleg.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/RestfulGalgeleg_jar/RestfulGalgeleg.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/galgeleg/GalgelegI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/BenytGalgelegModServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/BenytGalgelegModServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegKlient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegKlient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/galgeleg/GalgelegServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/RestfulGalgeleg-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegRest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegRest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegRest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegRest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegRest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegRest$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/galgeleg/GalgelegServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584217208188</updated>
       <workItem from="1584217210639" duration="114000" />
-      <workItem from="1584358871603" duration="1792000" />
+      <workItem from="1584358871603" duration="4207000" />
     </task>
     <servers />
   </component>
