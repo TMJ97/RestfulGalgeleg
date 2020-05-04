@@ -1,11 +1,7 @@
 main\java\galgeleg\GalgelegImpl.class
-main\java\galgeleg\GalgelegRest$3.class
 main\java\galgeleg\GalgelegRest.class
 main\java\galgeleg\GalgelegKlient.class
-main\java\galgeleg\GalgelegRest$1.class
 brugerautorisation\data\Bruger.class
 brugerautorisation\transport\rmi\Brugeradmin.class
-galgeleg\GalgelegI.class
 main\java\galgeleg\GalgelegServer.class
 main\java\galgeleg\BenytGalgelegModServer.class
-main\java\galgeleg\GalgelegRest$2.class
